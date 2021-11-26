@@ -280,6 +280,15 @@ img {
   color: var(--first-color);
 }
 
+.uil img {
+  width: 32px;
+  margin-left: -4px;
+}
+
+.uil img:hover {
+  opacity: 0.7;
+}
+
 .home__social-icon:hover {
   color: var(--first-color-alt);
 }
@@ -506,22 +515,22 @@ img {
 }
 
 .skills__react {
-  width: 85%;
+  width: 60%;
 }
 
-.skills__php {
+/* .skills__php {
   width: 80%;
-}
+} */
 
 .skills__node {
-  width: 70%;
+  width: 50%;
 }
 
 .skills__firebase {
-  width: 90%;
+  width: 60%;
 }
 
-.skills__python {
+/* .skills__python {
   width: 55%;
 }
 
@@ -535,7 +544,7 @@ img {
 
 .skills__photoshop {
   width: 85%;
-}
+} */
 
 .skills__close .skills__list {
   height: 0px;
@@ -637,6 +646,10 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transition: .3s;
   overflow: hidden;
+}
+
+.services__content.solo {
+  grid-column-start: 2;
 }
 
 .services__content:hover {
@@ -1058,7 +1071,7 @@ img {
     justify-self: center;
   }
   .about__container,
-  .skills__container,
+  
   .portfolio__content,
   .project__container,
   .contact__container,
