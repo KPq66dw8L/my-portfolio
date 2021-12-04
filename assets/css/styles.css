@@ -511,11 +511,11 @@ img {
 }
 
 .skills__js {
-  width: 60%;
+  width: 80%;
 }
 
 .skills__react {
-  width: 60%;
+  width: 50%;
 }
 
 /* .skills__php {
@@ -1146,6 +1146,7 @@ img {
   }
   .about__img {
     width: 350px;
+    margin-top: -100px;
   }
   .about__description {
     text-align: initial;
