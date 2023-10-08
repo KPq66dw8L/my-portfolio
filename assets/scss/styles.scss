@@ -197,7 +197,7 @@ img{
     }
 
     &__menu{
-        @media screen and(max-width: 767px){
+        @media screen and (max-width: 767px){
             position: fixed;
             bottom: -100%;
             left: 0;
@@ -379,6 +379,11 @@ img{
 
 /*==================== ABOUT ====================*/
 .about{
+    &__data{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
     &__img{
         width: 200px;
         border-radius: .5rem;
@@ -470,7 +475,7 @@ img{
         background-color: var(--first-color);
     }
     &__html{
-        width: 90%;
+        width: 80%;
     }
     &__css{
         width: 80%;
@@ -479,28 +484,34 @@ img{
         width: 60%;
     }
     &__react{
-        width: 85%;
-    }
-    &__php{
-        width: 80%;
+        width: 50%;
     }
     &__node{
-        width: 70%;
+        width: 50%;
     }
     &__firebase{
-        width: 90%;
+        width: 50%;
     }
     &__python{
         width: 55%;
     }
-    &__figma{
-        width: 90%;
-    }
-    &__sketch{
-        width: 85%;
+    &__java{
+        width: 70%;
     }
     &__photoshop{
         width: 85%;
+    }
+    &__nasm{
+        width: 40%;
+    }
+    &__sql{
+        width: 70%;
+    }
+    &__mongo{
+        width: 60%;
+    }
+    &__c{
+        width: 70%;
     }
 
     &__close &__list{
@@ -925,7 +936,7 @@ img{
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and(max-width: 350px){
+@media screen and (max-width: 350px){
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -992,7 +1003,7 @@ img{
 }
 
 /* For medium devices */
-@media screen and(min-width: 568px){
+@media screen and (min-width: 568px){
     .home{
         &__content{
             grid-template-columns: max-content 1fr 1fr;
@@ -1022,7 +1033,7 @@ img{
     }
 }
 
-@media screen and(min-width: 768px){
+@media screen and (min-width: 768px){
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -1189,7 +1200,7 @@ img{
 }
 
 /* For large devices */
-@media screen and(min-width: 1024px){
+@media screen and (min-width: 1024px){
     .header,
     .main,
     .footer__container{
